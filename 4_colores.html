@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            display: flex;
+            justify-content: space-around;
+
+
+            padding: 30px;
+        }
+
+
+
+        .div1 {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            border-radius: 7px;
+        }
+
+        .div2 {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            border-radius: 7px;
+        }
+
+        .div3 {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            border-radius: 7px;
+        }
+
+        .div4 {
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            border-radius: 7px;
+        }
+
+        .key {
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 7px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+
+    </div>
+    <hr>
+    <div>
+        <h1> Presiona una le tra en tu teclado. (a, s, d)</h1>
+        <div class="key">
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+        const div1 = document.querySelector('.div1');
+        const div2 = document.querySelector('.div2');
+        const div3 = document.querySelector('.div3');
+        const div4 = document.querySelector('.div4');
+
+        div1.addEventListener('click', () => {
+            div1.style.backgroundColor = 'black'
+        });
+
+        div2.addEventListener('click', () => {
+            div2.style.backgroundColor = 'black'
+        });
+
+
+        div3.addEventListener('click', () => {
+            div3.style.backgroundColor = 'black'
+        });
+
+        div4.addEventListener('click', () => {
+            div4.style.backgroundColor = 'black'
+        });
+    </script>
+
+
+    <!----------- Ejercicio 4 -------->
+    <script src="./assets/js/scripts_ejercicio_4.js"></script>
+</body>
+
+</html>
